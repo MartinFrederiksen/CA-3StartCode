@@ -90,6 +90,7 @@ public class UserFacadeTest {
     public void tearDown() {
     }
 
+    @Disabled
     @Test
     public void getVerifiedUserTest() throws AuthenticationException {
         String expected = users.get(0).getUserName();
